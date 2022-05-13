@@ -1,0 +1,53 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: rgba(255, 115, 0, 0.87);
+}
+
+h4 {
+  color: green;
+}
+
+.menu__link {
+  background-color: beige;
+}
+.menu__link:hover {
+  background-color: brown;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.menu {
+  display: block;
+}
+.menu__item {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  color: pink;
+}
+.menu__link {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}/*# sourceMappingURL=style.css.map */

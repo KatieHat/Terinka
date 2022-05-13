@@ -1,0 +1,59 @@
+---
+layout: /templates/edges.njk
+title: Vzhled
+---
+# {{title}}
+
+<p class="text-normal">Na této stránce se dočtete, jaký je oficiální standard plemene a níže pak také to, jaká také může být realita - případ Terinky. Přece jen je to realitvě mladé a málopočetné plemeno a odchylky tak mohou být trochu větší než třeba čekáte.</p>
+
+<section class="section">
+
+# Oficiální standard
+
+<p class="text-normal">Zdroj: [ČeskoMoravská Kynologická Unie](https://www.cmku.cz/cz) (ČMKU)</p>
+
+<p class="text-normal">Níže uvedeny jen vybrané části standardu, plné znění je vyvěšeno na&nbsp;stránkách ČMKU [zde](https://www.cmku.cz/cz/seznam-plemen-159/405).</p>
+
+## Celkový vzhled
+<p class="text-normal">Středně velký tříbarevný strakatý pes s&nbsp;harmonickou a nepříliš těžkou stavbou těla, vyvážených proporcí, mírně obdélníkového rámce s&nbsp;klopenýma ušima, pevné konstituce, bez&nbsp;známek lymfatičnosti nebo hrubosti.</p>
+
+## Osrstění
+<p class="text-normal">Dvě varianty srsti: krátká a dlouhá.</p>
+
+<p class="text-normal">**Krátká srst** je patrová, s&nbsp;podsadou patrnou především v zimě. Na&nbsp;spodní straně krku, zadní straně stehen a spodku ocasu je srst mírně delší, avšak přilehlá, stejně jako po&nbsp;celém těle.</p>
+
+<p class="text-normal">**Dlouhá srst** je jen nepatrně zvlněná, rovněž s&nbsp;podsadou, splývající. Kratší je na&nbsp;hlavě a přední straně končetin, naopak výrazně delší je okolo uší, na&nbsp;krku tvoří mírný límec, na&nbsp;prsou, hrudníku a břiše splývá. Na&nbsp;hrudních končetinách tvoří praporce, na&nbsp;pánevních kalhoty. Rovněž je vyvinut praporec na&nbsp;ocase.</p>
+
+<p class="text-normal">Žádné z&nbsp;uvedených variant není dávána přednost, obě jsou rovnocenné. Tzv. **přechodný typ srsti** – výskyt výrazně delší srsti na&nbsp;zadní straně stehen a delší odstávající srsti na&nbsp;spodině ocasu u&nbsp;některých jinak krátkosrstých jedinců není důvodem k&nbsp;penalizaci.</p>
+
+## Zbarvení
+<p class="text-normal">Vždy trikolorní, vyskytují se dva základní typy zbarvení: černožlutobílé a hnědožlutobílé.</p>
+
+<p class="text-normal">**Černožlutobílý** jedinec má černý nos, tmavé oko, **hnědožlutobílý** má játrový nos a světlejší oko.</p>
+
+<p class="text-normal">Žádné z&nbsp;těchto dvou variant není dávána přednost, obě jsou rovnocenné.</p>
+
+<p class="text-normal">Základní zbarvení je tmavé (černé/hnědé) se žlutými znaky, vždy v&nbsp;kombinaci s&nbsp;bílou. Ideální poměr mezi pigmentovanou a nepigmentovanou plochou těla je 1&nbsp;:&nbsp;1. Bílé plochy musí být tečkovány v&nbsp;oblasti žluté barvy žlutě, v&nbsp;oblasti černé/hnědé barvy černě/hnědě. Velikost nebo hustota teček není rozhodující, ale tečkované plochy by neměly vytvářet dojem melírovaného zbarvení (roan).</p>
+
+## Kohoutková výška
+<p class="text-normal">Psi: 45-53&nbsp;cm, feny: 43-51&nbsp;cm</p>
+</section>
+
+<section class="section">
+
+# Terinka
+<p class="text-normal">Terinka je dlouhosrstá, černožlutobíle zbarvená.</p>
+
+<p class="text-normal">Působí dojmem spíše malého, než středně velkého psa.</p>
+
+<p class="text-normal">Výška:</p>
+
+<p class="text-normal">Kdysi jsem někde četla, že ČSP mamí v&nbsp;dospělosti 14-20&nbsp;kg, v&nbsp;oficiálním standardu váha není. Její matka měla 12&nbsp;kg, váha Ter se pohybuje jen mezi 8-9&nbsp;kg.</p>
+
+<p class="text-normal">Kupovala jsem si ji s&nbsp;vědomím, že bude menšího vzrůstu. Sama jsem však byla překvapena, jak málo vyrostla. Prvních několik měsíců jsem byla nervózní, jak málo jí. Na 14-20&nbsp;kg psa měla jíst mnohem více. Nakonec se ustálila je na&nbsp;8&nbsp;kg, teď ve&nbsp;svých 7,5&nbsp;letech má 9&nbsp;kg. Je krásně osvalená, stále v&nbsp;dobré kondici a její menší vzrůst je v&nbsp;mnoha ohledech velmi praktický.</p>
+
+<p class="text-normal">Co mě překvapilo byl fakt, že u&nbsp;ČSP je možné, aby se krátkosrstým rodičům narodila dlouhosrstá štěňata. Když jsem prve procházela seznam nakrytých fen, ty krátkosrté jsem z&nbsp;hledáčku hned vyhodila. Chtěla jsem přece dlouhosrtsté štěně. Jaké pak bylo mé překvapení, když jsem o&nbsp;několik měsíců později narazila na&nbsp;inzerát jedné z&nbsp;těchto chovatelských stanic, že mají ještě jednu volnou dlouhosrstou fenku menšího vzrůstu.</p>
+
+<p class="text-normal">O&nbsp;tom, jestli má některý z&nbsp;páru tzv. vlohy pro&nbsp;dlouhou srst se&nbsp;většinou dočtete. Takže pokud toužíte po&nbsp;dlouhosrsté variantě ČSP, podívejte se i na&nbsp;informace o &nbsp;krátkosrstých nakrytých fenách (a také budoucích otců štěňat), jestli náhodou nemají pro&nbsp;dlouhou srst vlohy. Pokud mají, je možné, že se jim narodí právě to štěně, po&nbsp;kterém toužíte.</p>
+
+</section>

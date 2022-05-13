@@ -1,0 +1,31 @@
+$title-h1: red;
+$title-h2: blue;
+$title-h3: rgba(255, 115, 0, 0.87);
+$title-h4: green;
+$menu__item--active: brown;
+$menu__item--normal: beige;
+
+
+h1 {
+    color: $title-h1;
+}
+
+h2 {
+    color: $title-h2;
+}
+
+h3 {
+    color: $title-h3;
+}
+
+h4 {
+    color: $title-h4;
+}
+
+.menu__link{
+    background-color: $menu__item--normal;
+
+    &:hover{
+        background-color: $menu__item--active;
+    }
+}
