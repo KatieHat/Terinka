@@ -2,7 +2,7 @@
 layout: /templates/edges.njk
 title: Vzhled
 ---
-# {{title}}
+<h1 class="title title-main">{{title}}</h1>
 
 <p class="text-normal">Na této stránce se dočtete, jaký je oficiální standard plemene a níže pak také to, jaká také může být realita - případ Terinky. Přece jen je to realitvě mladé a málopočetné plemeno a odchylky tak mohou být trochu větší než třeba čekáte.</p>
 

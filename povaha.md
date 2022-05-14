@@ -2,7 +2,7 @@
 layout: /templates/edges.njk
 title: Povaha a problémové chování
 ---
-# {{title}}
+<h1 class="title title-main">{{title}}</h1>
 
 ## Oficální standard
 

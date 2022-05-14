@@ -1,31 +1,82 @@
-$title-h1: red;
-$title-h2: blue;
-$title-h3: rgba(255, 115, 0, 0.87);
-$title-h4: green;
-$menu__item--active: brown;
-$menu__item--normal: beige;
+$title-color: #6C3523;
+$title-hero-color:#2E170F;
+$background-hero-color: #E6C0B2;
+$menu__item--active: #2E170F;
+$menu__item--normal: #6C3523;
+$menu__item--text: #F5E4E0;
+$content-line: #F5E4E0;
 
+/*#4D2319 - tmave hneda
+#2E170F - tmavsi hneda
+#6C3523 - stredni hneda
+#E6C0B2 - svetle hneda
+#F5E4E0 - jeste svetlejsi
+--------------------------
+#E6AA68 - stredne bezova (fawn)*/
 
-h1 {
-    color: $title-h1;
+body {
+    /*pozadí - packy
+
+    background-image: url(/images/footprints.svg);
+    background-repeat: repeat;
+    background-size: 80px;
+    background-position: center;
+
+    */
+
+    /*background-image: linear-gradient($title-hero-color, $menu__item--normal, $title-hero-color);*/
+
+    background-image: linear-gradient($content-line, $menu__item--normal);
+
 }
 
-h2 {
-    color: $title-h2;
+.hero {
+    /*
+    background-color: $background-hero-color;
+    background-image: url(/images/footprints.svg);
+    background-repeat: repeat;
+    background-size: 40px;
+    background-position: center;*/
+
+    /*background-image: linear-gradient(#6C3523, #2E170F 10%, #6C3523 50%, #2E170F 90%, #6C3523 100%);*/
+    background-image: linear-gradient($title-hero-color, $menu__item--normal, $title-hero-color );
 }
 
-h3 {
-    color: $title-h3;
+.title-hero{
+    color: $title-hero-color;
 }
 
-h4 {
-    color: $title-h4;
+.title{
+    color: $title-color;
 }
 
-.menu__link{
+.menu{
     background-color: $menu__item--normal;
+    
 
-    &:hover{
-        background-color: $menu__item--active;
+    &__link{
+        color: $menu__item--text;
+
+        &:hover{
+            background-color: $menu__item--active;
+        }
     }
 }
+
+.content-line{
+    background-color: $content-line;
+}
+
+footer{
+    background-color: $title-hero-color;
+}
+
+/*
+.footer-line{
+    background-color: $menu__item--normal;
+}
+
+.footer-end{
+    background-color: $content-line;
+}
+*/
