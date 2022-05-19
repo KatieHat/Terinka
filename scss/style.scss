@@ -5,7 +5,8 @@ $width-tablet: 768px;
 $width-pc: 1200px;
 $width-pc-line: 800px;
 $padding: 5px;
-$margin: 10%;
+$margin-common: 5px;
+$margin-end: 10%;
 
 body {
     margin:0;
@@ -18,6 +19,8 @@ body {
 
 .photo-hero{
     width: 20%;
+    padding-right: $margin-common;
+    
 }
 
 .title-hero{
@@ -33,18 +36,18 @@ li{
     }
 
 .menu {
-
     display: flex;
-    padding-top: $padding;
-    padding-bottom: $padding;
+    margin-top: $margin-common;
+    padding-bottom: $padding 0;
     justify-content: space-around;
 
-
+    /*
     @media screen and (min-width: $width-pc){
 
-        flex-basis: $width-pc-line/6;
+        flex-basis: calc($width-pc-line / 6);
         
     }
+    */
 
     &__item{
         
@@ -52,16 +55,22 @@ li{
         font-size: 20px;
         flex-grow: 1;
         text-align: center;
+
     
     }
 
     &__link{
         display: block;
         text-decoration: none;
+        padding-top: $padding;
+        padding-bottom: $padding;
 
         &:hover{
-            display: block;
-        }
+                    /*display: block;
+                    
+                    text-decoration: underline;*/
+                }
+        
     }
 }
 
@@ -83,12 +92,12 @@ li{
 }
 
 .content-article{
-    margin: 0 $margin;
-    margin-bottom: $margin;
+    margin: 0 $margin-end;
+    margin-bottom: $margin-end;
 }
 
 
 footer{
-    height: 50px;
+    height: calc(4 * $margin-common);
 }
 

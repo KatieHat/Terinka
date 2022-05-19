@@ -1,10 +1,10 @@
 $title-color: #6C3523;
 $title-hero-color:#2E170F;
 $background-hero-color: #E6C0B2;
-$menu__item--active: #2E170F;
-$menu__item--normal: #6C3523;
-$menu__item--text: #F5E4E0;
-$content-line: #F5E4E0;
+$menu__item-color--active: #2E170F;
+$menu__item-color--normal: #6C3523;
+$menu__item-color--text: #F5E4E0;
+$content-line-color: #F5E4E0;
 
 /*#4D2319 - tmave hneda
 #2E170F - tmavsi hneda
@@ -24,9 +24,9 @@ body {
 
     */
 
-    /*background-image: linear-gradient($title-hero-color, $menu__item--normal, $title-hero-color);*/
+    /*background-image: linear-gradient($title-hero-color, $menu__item-color--normal, $title-hero-color);*/
 
-    background-image: linear-gradient($content-line, $menu__item--normal);
+    background-image: linear-gradient($content-line-color, $menu__item-color--normal);
 
 }
 
@@ -39,11 +39,15 @@ body {
     background-position: center;*/
 
     /*background-image: linear-gradient(#6C3523, #2E170F 10%, #6C3523 50%, #2E170F 90%, #6C3523 100%);*/
-    background-image: linear-gradient($title-hero-color, $menu__item--normal, $title-hero-color );
+    background-image: linear-gradient($title-hero-color, $menu__item-color--normal, $title-hero-color );
+}
+
+.photo-hero{
+    background-color: $content-line-color;
 }
 
 .title-hero{
-    color: $title-hero-color;
+    color: $menu__item-color--text;
 }
 
 .title{
@@ -51,32 +55,34 @@ body {
 }
 
 .menu{
-    background-color: $menu__item--normal;
+    background-color: $menu__item-color--normal;
     
 
     &__link{
-        color: $menu__item--text;
+        color: $menu__item-color--text;
 
         &:hover{
-            background-color: $menu__item--active;
+            background-color: $menu__item-color--active;
         }
+
+        
     }
 }
 
 .content-line{
-    background-color: $content-line;
+    background-color: $content-line-color;
 }
 
 footer{
-    background-color: $title-hero-color;
+    background-color: $menu__item-color--active;
 }
 
 /*
 .footer-line{
-    background-color: $menu__item--normal;
+    background-color: $menu__item-color--normal;
 }
 
 .footer-end{
-    background-color: $content-line;
+    background-color: $menu__item-color--active;
 }
 */

@@ -30,7 +30,7 @@ Navíc byla “ADHD”, jak jsem tomu říkala. Neuvěřitelně roztěkaná, mě
 
 ### Výchovné metody
 <p class="text-normal">Co se výchovný ch metod týče, jednoznačně doporučuji “pozitivku” – pozitivní motivace. Je to ten typ psa, který rád chválen. Opravováním bych ji demotivovala. To by ji nebavilo, výcvik by trval o to déle a trápili bychom se obě. Křikem by hrozilo, že ji zlomím, a to jsem nechtěla a nechci. Nemívají to tak všichni psi, ale Ter byla vždy hrozná citlivka.</p>
-<p class="text-normal">Co se odměn týče, některých případech pracovala mnohem lépe za hračku, resp. hru s hračkou, než za pamlsky. Všichni psi, se kterými jsem měl v minulosti co dočinění, byli jednoznačně za měření na pamlsky, takže tohle byla pro mě novinka.</p>
+<p class="text-normal">Co se odměn týče, některých případech pracovala mnohem lépe za hračku, resp. hru s hračkou, než za pamlsky. Všichni psi, se kterými jsem měla v minulosti co dočinění, byli jednoznačně zaměření na pamlsky, takže tohle byla pro mě novinka.</p>
 
 
 

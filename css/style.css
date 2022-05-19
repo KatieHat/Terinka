@@ -15,7 +15,7 @@ body {
   background-position: center;
 
   */
-  /*background-image: linear-gradient($title-hero-color, $menu__item--normal, $title-hero-color);*/
+  /*background-image: linear-gradient($title-hero-color, $menu__item-color--normal, $title-hero-color);*/
   background-image: linear-gradient(#F5E4E0, #6C3523);
 }
 
@@ -30,8 +30,12 @@ body {
   background-image: linear-gradient(#2E170F, #6C3523, #2E170F);
 }
 
+.photo-hero {
+  background-color: #F5E4E0;
+}
+
 .title-hero {
-  color: #2E170F;
+  color: #F5E4E0;
 }
 
 .title {
@@ -58,11 +62,11 @@ footer {
 
 /*
 .footer-line{
-    background-color: $menu__item--normal;
+    background-color: $menu__item-color--normal;
 }
 
 .footer-end{
-    background-color: $content-line;
+    background-color: $menu__item-color--active;
 }
 */
 .content-article {
@@ -100,6 +104,7 @@ body {
 
 .photo-hero {
   width: 20%;
+  padding-right: 5px;
 }
 
 .title-hero {
@@ -114,14 +119,16 @@ li {
 
 .menu {
   display: flex;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-bottom: 5px 0;
   justify-content: space-around;
-}
-@media screen and (min-width: 1200px) {
-  .menu {
-    flex-basis: 133.3333333333px;
+  /*
+  @media screen and (min-width: $width-pc){
+
+      flex-basis: calc($width-pc-line / 6);
+
   }
+  */
 }
 .menu__item {
   width: auto;
@@ -129,12 +136,19 @@ li {
   flex-grow: 1;
   text-align: center;
 }
+.menu__item--active {
+  background-color: black;
+}
 .menu__link {
   display: block;
   text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .menu__link:hover {
-  display: block;
+  /*display: block;
+
+  text-decoration: underline;*/
 }
 
 .content-line {
@@ -158,5 +172,5 @@ li {
 }
 
 footer {
-  height: 50px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
