@@ -2,9 +2,14 @@
 @use 'text';
 
 $width-tablet: 768px;
+$width-tablet-line: 760px;
+
 $width-pc: 1200px;
-$width-pc-line: 800px;
+$width-pc-line: 1000px;
+
 $padding: 5px;
+$padding-article: 70px;
+
 $margin-common: 5px;
 $margin-end: 10%;
 
@@ -19,16 +24,28 @@ body {
 
 .photo-hero{
     width: 20%;
-    padding-right: $margin-common;
+    min-width: 40px;
+    max-width: 150px;
+    padding-right: $padding;
     
 }
 
+
 .title-hero{
+    margin: auto;
+}
+
+.title-hero-main{
     margin: auto;
     padding-top: $padding;
     padding-bottom: $padding;
 }
 
+.title-hero-subtitle{
+    margin: auto;
+    padding-top: $padding;
+    padding-bottom: $padding;
+}
 
 
 li{
@@ -38,8 +55,23 @@ li{
 .menu {
     display: flex;
     margin-top: $margin-common;
-    padding-bottom: $padding 0;
+    /*padding-bottom: $padding 0;*/
     justify-content: space-around;
+    width:auto;
+
+  
+
+    @media screen and (min-width: $width-tablet){
+
+        width: $width-tablet-line;
+        
+    }
+
+    @media screen and (min-width: $width-pc){
+
+        width: $width-pc-line;
+        
+    }
 
     /*
     @media screen and (min-width: $width-pc){
@@ -55,7 +87,6 @@ li{
         font-size: 20px;
         flex-grow: 1;
         text-align: center;
-
     
     }
 
@@ -65,11 +96,7 @@ li{
         padding-top: $padding;
         padding-bottom: $padding;
 
-        &:hover{
-                    /*display: block;
-                    
-                    text-decoration: underline;*/
-                }
+        
         
     }
 }
@@ -80,7 +107,7 @@ li{
 
     @media screen and (min-width: $width-tablet){
 
-        width: 800px;
+        width: $width-tablet-line;
         
     }
 
@@ -92,8 +119,9 @@ li{
 }
 
 .content-article{
-    margin: 0 $margin-end;
+    margin: 0;
     margin-bottom: $margin-end;
+    padding: 0 $padding-article;
 }
 
 

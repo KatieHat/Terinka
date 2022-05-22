@@ -7,36 +7,76 @@
     <div class="content-line">
             
         <header class="hero">
-           <img class="photo-hero" src="/images/mini/ter_profile-sq-mini.jpg" alt="hlava Terinky">
-           <h1 class="title-hero">Terinka - Český strakatý pes</h1> 
+
+            <img class="photo-hero" src="/images/mini/ter_profile-sq-mini.jpg" alt="hlava Terinky">
+            
+            <div class="title-hero">
+
+                <h1 class="title-hero-main">Terinka</h1>
+                <h2 class="title-hero-subtitle">jeden Český strakatý pes</h2>
+            
+            </div>
+            
         </header>
 
-        <div class="menu">
-            <li class="menu__item"> <a href="/" class="menu__link">Úvod</a></li>
-            <li class="menu__item"> <a href="/vzhled" class="menu__link">Vzhled</a></li>
-            <li class="menu__item"> <a href="/povaha" class="menu__link">Povaha</a></li>
-            <!--
-            <li class="menu__item"> <a href="/aktivity" class="menu__link">Aktivity</a></li>
-            -->
-            <li class="menu__item"> <a href="/galerie" class="menu__link">Galerie</a></li>
-            <li class="menu__item"> <a href="/kontakt" class="menu__link">Kontakt</a></li>
-        </div>
+        <main class="content">
 
-        <main class="content-article">
+            
+<nav class="menu">
+    <li class="menu__item "> 
+        <a href="/" class="menu__link">Úvod</a>
+    </li>
 
-            <h1 class="title title-main">Galerie</h1>
+    <li class="menu__item "> 
+        <a href="/vzhled" class="menu__link">Vzhled</a>
+    </li>
+    
+    <li class="menu__item "> 
+        <a href="/povaha" class="menu__link">Povaha</a>
+    </li>
+    
+    <!--
+    <li class="menu__item "> 
+        <a href="/aktivity" class="menu__link">Aktivity</a>
+    </li>
+    -->
 
-<h2>Štěně</h2>
-<a data-fslightbox href="/images/normal/puppy_h.jpg"><img class="photo-galery" src="/images/mini/puppy_h-mini.jpg" alt="štěně s hračkou"></a>
-<a data-fslightbox href="/images/normal/puppy_h_t.jpg"><img class="photo-galery" src="/images/mini/puppy_h_t-mini.jpg" alt="sedící štěně"></a>
-<a data-fslightbox href="/images/normal/puppy_r.jpg"><img class="photo-galery" src="/images/mini/puppy_r-mini.jpg" alt="stojící štěně"></a>
-<a data-fslightbox href="/images/normal/puppy_r_g.jpg"><img class="photo-galery" src="/images/mini/puppy_r_g-mini.jpg" alt="štěně jde po trávě"></a>
+    <li class="menu__item menu__item--active"> 
+        <a href="/galerie" class="menu__link">Galerie</a>
+    </li>
 
-<h2>Dospělost</h2>
-<a data-fslightbox href="/images/normal/ter_castle.jpg"><img class="photo-galery" src="/images/mini/ter_castle-mini.jpg" alt="pes u zříceniny hradu"></a>
-<a data-fslightbox href="/images/normal/ter_fox.jpg"><img class="photo-galery" src="/images/mini/ter_fox-mini.jpg" alt="pes u sochy lišky"></a>
-<a data-fslightbox href="/images/normal/ter_g.jpg"><img class="photo-galery" src="/images/mini/ter_g-mini.jpg" alt="portrét psa"></a>
-<a data-fslightbox href="/images/normal/ter_p_smile.jpg"><img class="photo-galery" src="/images/mini/ter_p_smile-mini.jpg" alt="vysmátý pes v trávě"></a>
+    <li class="menu__item "> 
+        <a href="/kontakt" class="menu__link">Kontakt</a>
+    </li>
+</nav>
+
+
+
+<main class="content-article">
+
+    <h1 class="title title-main">Galerie</h1>
+
+<h2 class="title title-normal">Štěně</h2>
+
+<div>
+    <a data-fslightbox="puppy-group" href="/images/normal/puppy_h.jpg"><img class="photo-galery" src="/images/mini/puppy_h-mini.jpg" alt="štěně s hračkou"></a>
+    <a data-fslightbox="puppy-group" href="/images/normal/puppy_h_t.jpg"><img class="photo-galery" src="/images/mini/puppy_h_t-mini.jpg" alt="sedící štěně"></a>
+    <a data-fslightbox="puppy-group" href="/images/normal/puppy_r.jpg"><img class="photo-galery" src="/images/mini/puppy_r-mini.jpg" alt="stojící štěně"></a>
+    <a data-fslightbox="puppy-group" href="/images/normal/puppy_r_g.jpg"><img class="photo-galery" src="/images/mini/puppy_r_g-mini.jpg" alt="štěně jde po trávě"></a>
+</div>
+
+<h2 class="title title-normal">Dospělost</h2>
+
+<div>
+    <a data-fslightbox="adult-group" href="/images/normal/ter_castle.jpg"><img class="photo-galery" src="/images/mini/ter_castle-mini.jpg" alt="pes u zříceniny hradu"></a>
+    <a data-fslightbox="adult-group" href="/images/normal/ter_fox.jpg"><img class="photo-galery" src="/images/mini/ter_fox-mini.jpg" alt="pes u sochy lišky"></a>
+    <a data-fslightbox="adult-group" href="/images/normal/ter_g.jpg"><img class="photo-galery" src="/images/mini/ter_g-mini.jpg" alt="portrét psa"></a>
+    <a data-fslightbox="adult-group" href="/images/normal/ter_p_smile.jpg"><img class="photo-galery" src="/images/mini/ter_p_smile-mini.jpg" alt="vysmátý pes v trávě"></a>
+</div>
+
+</main>
+
+
 
 
         </main>
@@ -50,6 +90,8 @@
 
     </div>
 
+    
+    <script src="/fslightbox.js"></script>
 </body>
 
 

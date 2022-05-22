@@ -15,7 +15,6 @@ body {
   background-position: center;
 
   */
-  /*background-image: linear-gradient($title-hero-color, $menu__item-color--normal, $title-hero-color);*/
   background-image: linear-gradient(#F5E4E0, #6C3523);
 }
 
@@ -27,7 +26,7 @@ body {
   background-size: 40px;
   background-position: center;*/
   /*background-image: linear-gradient(#6C3523, #2E170F 10%, #6C3523 50%, #2E170F 90%, #6C3523 100%);*/
-  background-image: linear-gradient(#2E170F, #6C3523, #2E170F);
+  background-image: linear-gradient(#2E170F, #6C3523 30%, #2E170F);
 }
 
 .photo-hero {
@@ -42,8 +41,27 @@ body {
   color: #6C3523;
 }
 
+.title-main {
+  color: #2E170F;
+}
+
+.title-normal {
+  color: #6c3523;
+}
+
+.title-subtitle {
+  color: #6C3523;
+}
+
+.title-category {
+  color: #E6AA68;
+}
+
 .menu {
   background-color: #6C3523;
+}
+.menu__item--active {
+  background-color: #2E170F;
 }
 .menu__link {
   color: #F5E4E0;
@@ -69,15 +87,26 @@ footer {
     background-color: $menu__item-color--active;
 }
 */
+/*$text-normal
+$text-highlighted
+*/
+.text-highlighted {
+  font-weight: bold;
+}
+
 .content-article {
   text-align: center;
 }
 
-.title-name {
+.title-hero {
   text-align: center;
 }
 
-.title-hero {
+.title-hero-main {
+  font-size: 50px;
+}
+
+.title-hero-subtitle {
   font-size: 30px;
 }
 
@@ -104,10 +133,22 @@ body {
 
 .photo-hero {
   width: 20%;
+  min-width: 40px;
+  max-width: 150px;
   padding-right: 5px;
 }
 
 .title-hero {
+  margin: auto;
+}
+
+.title-hero-main {
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.title-hero-subtitle {
   margin: auto;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -120,8 +161,9 @@ li {
 .menu {
   display: flex;
   margin-top: 5px;
-  padding-bottom: 5px 0;
+  /*padding-bottom: $padding 0;*/
   justify-content: space-around;
+  width: auto;
   /*
   @media screen and (min-width: $width-pc){
 
@@ -130,25 +172,27 @@ li {
   }
   */
 }
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 760px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu {
+    width: 1000px;
+  }
+}
 .menu__item {
   width: auto;
   font-size: 20px;
   flex-grow: 1;
   text-align: center;
 }
-.menu__item--active {
-  background-color: black;
-}
 .menu__link {
   display: block;
   text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-.menu__link:hover {
-  /*display: block;
-
-  text-decoration: underline;*/
 }
 
 .content-line {
@@ -157,18 +201,19 @@ li {
 }
 @media screen and (min-width: 768px) {
   .content-line {
-    width: 800px;
+    width: 760px;
   }
 }
 @media screen and (min-width: 1200px) {
   .content-line {
-    width: 800px;
+    width: 1000px;
   }
 }
 
 .content-article {
-  margin: 0 10%;
+  margin: 0;
   margin-bottom: 10%;
+  padding: 0 70px;
 }
 
 footer {

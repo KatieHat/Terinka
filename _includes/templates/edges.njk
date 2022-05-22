@@ -7,22 +7,19 @@
     <div class="content-line">
             
         <header class="hero">
-           <img class="photo-hero" src="/images/mini/ter_profile-sq-mini.jpg" alt="hlava Terinky">
-           <h1 class="title-hero">Terinka - Český strakatý pes</h1> 
+
+            <img class="photo-hero" src="/images/mini/ter_profile-sq-mini.jpg" alt="hlava Terinky">
+            
+            <div class="title-hero">
+
+                <h1 class="title-hero-main">Terinka</h1>
+                <h2 class="title-hero-subtitle">jeden Český strakatý pes</h2>
+            
+            </div>
+            
         </header>
 
-        <div class="menu">
-            <li class="menu__item"> <a href="/" class="menu__link">Úvod</a></li>
-            <li class="menu__item"> <a href="/vzhled" class="menu__link">Vzhled</a></li>
-            <li class="menu__item"> <a href="/povaha" class="menu__link">Povaha</a></li>
-            <!--
-            <li class="menu__item"> <a href="/aktivity" class="menu__link">Aktivity</a></li>
-            -->
-            <li class="menu__item"> <a href="/galerie" class="menu__link">Galerie</a></li>
-            <li class="menu__item"> <a href="/kontakt" class="menu__link">Kontakt</a></li>
-        </div>
-
-        <main class="content-article">
+        <main class="content">
 
             {{ content | safe }}
 
@@ -37,6 +34,8 @@
 
     </div>
 
+    
+    <script src="/fslightbox.js"></script>
 </body>
 
 

@@ -1,5 +1,5 @@
 ---
-layout: /templates/edges.njk
+layout: /templates/page.njk
 title: Aktivity
 ---
 *{{title}}*

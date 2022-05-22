@@ -1,14 +1,24 @@
-@use 'colors';
+/*$text-normal
+$text-highlighted
+*/
+
+.text-highlighted{
+    font-weight: bold;
+}
 
 .content-article{
     text-align: center;
 }
 
-.title-name{
+.title-hero {
     text-align: center;
 }
 
-.title-hero {
+.title-hero-main {
+    font-size: 50px;
+}
+
+.title-hero-subtitle {
     font-size: 30px;
 }
 
