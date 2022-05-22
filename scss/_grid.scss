@@ -1,0 +1,53 @@
+@use 'colors';
+@use 'text';
+@use 'measures';
+
+.grid{
+
+    text-align: justify;
+    display: grid;
+    gap: 20px;
+    
+    
+    align-items: start;
+
+    &-title{
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        text-align: justify;
+        background-color: yellowgreen;
+        margin: 0;
+    }
+
+    &-normal{
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0;
+    
+    }
+
+    &-subtitle{
+
+        text-align: justify;
+        background-color: rgb(105, 91, 91);
+        margin: 0;
+
+    }
+
+    &-text{
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0;
+        
+        @media screen and (min-width: measures.$width-tablet){
+
+            grid-column-start: 2;
+
+        }
+
+    }
+
+}

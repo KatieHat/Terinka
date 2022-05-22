@@ -1,18 +1,19 @@
-/*$text-normal
-$text-highlighted
-*/
+@use 'colors';
+@use 'measures';
 
 .text-highlighted{
     font-weight: bold;
 }
 
+/*
 .content-article{
     text-align: center;
 }
-
+*/
 .title-hero {
     text-align: center;
 }
+
 
 .title-hero-main {
     font-size: 50px;

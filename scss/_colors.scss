@@ -1,3 +1,6 @@
+@use 'measures';
+
+
 $title-color: #6C3523;
 $title-hero-color:#2E170F;
 $background-hero-color: #E6C0B2;
@@ -76,11 +79,22 @@ body {
 }
 
 .menu{
-    background-color: $menu__item-color--normal;
+    background-color: $menu__item-color--active;
 
     &__item--active{
 
-        background-color: $menu__item-color--active;
+        @media screen and (min-width: measures.$width-tablet){
+
+            background-color: $menu__item-color--active;
+        
+        }
+
+    }
+
+    &__list{
+        
+        background-color: $menu__item-color--normal;
+        
     }
     
 
@@ -91,8 +105,8 @@ body {
             background-color: $menu__item-color--active;
         }
 
-        
     }
+
 }
 
 
