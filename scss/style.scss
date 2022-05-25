@@ -3,156 +3,33 @@
 @use 'measures';
 
 @use 'grid';
+@use 'menu';
+@use 'hero';
+@use 'photo-page';
+
 
 body {
 
-    margin:0;
-    padding: 0;
+    margin: 0;
+    padding: 50;
+    background-image: linear-gradient(colors.$content-line-color, colors.$menu__item-color--normal);
 
 }
 
-.hero{
 
-    display: flex;
-
-}
-
-.photo-hero{
-
-    width: 20%;
-    min-width: 40px;
-    max-width: 150px;
-    padding-right: measures.$padding;
-    
-}
-
-.title-hero{
-
-    margin: auto;
-
-}
-
-.title-hero-main{
-
-    margin: auto;
-    padding-top: measures.$padding;
-    padding-bottom: measures.$padding;
-
-}
-
-.title-hero-subtitle{
-
-    margin: auto;
-    padding-top: measures.$padding;
-    padding-bottom: measures.$padding;
-
-}
-
-li{
-
-        list-style-type: none;
-
-    }
-
-.menu {
-    
-    margin-top: measures.$margin-common;
-    /*
-    @media screen and (min-width: measures.$width-tablet){
-
-        width: measures.$width-tablet-line;
-        display: flex;
-        
-        justify-content: space-around;
-        width:auto;
-    } */
-
-    @media screen and (min-width: measures.$width-pc){
-
-        width: measures.$width-pc-line;
-        
-    }
-
-    &__checkbox{
-        
-        position: absolute;
-        left: -9999px;
-        
-        &:checked ~ .menu__list{
-            display: block;
-        }
-    }
-
-    &__toggler{
-
-        cursor: pointer;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-
-        @media screen and (min-width: measures.$width-tablet){
-            display: none;
-        }
-
-    }
-
-    &__list{
-        
-        display: none;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-
-        @media screen and (min-width: measures.$width-tablet){
-
-            display: flex;
-            width: measures.$width-tablet-line;
-            justify-content: space-around;
-            width:auto;
-
-        }
-        
-    }
-
-    &__item{
-        
-        border-bottom: 1px solid white;
-
-        @media screen and (min-width: measures.$width-tablet){
-
-            width: auto;
-            font-size: 20px;
-            flex-grow: 1;
-            text-align: center;
-            border-bottom: 0;
-
-        }
-    
-    }
-
-    &__link{
-
-        display: block;
-        text-decoration: none;
-        padding-top: measures.$padding;
-        padding-bottom: measures.$padding;    
-        
-    }
-
-}
-
-.content-line{
+.content-line {
 
     margin: 0 auto;
     padding: 0;
+    background-color: colors.$content-line-color;
 
-    @media screen and (min-width: measures.$width-tablet){
+    @media screen and (min-width: measures.$width-tablet) {
 
         width: measures.$width-tablet-line;
         
     }
 
-    @media screen and (min-width: measures.$width-pc){
+    @media screen and (min-width: measures.$width-pc) {
 
         width: measures.$width-pc-line;
         
@@ -160,19 +37,22 @@ li{
 
 }
 
-.content-article{
+.content-article {
 
     margin: 0;
     margin-bottom: measures.$margin-end;
     padding: 0 measures.$padding-article;
     text-align: center;
-    grid-template-columns: 4;
     
 }
 
 
 
-footer{
-    height: calc(4 * measures.$margin-common);
+
+footer {
+
+    height: 50px;
+    background-color: colors.$menu__item-color--active;
+
 }
 

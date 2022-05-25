@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="cs">
+
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="/css/style.css">
 
 <body>
@@ -68,9 +74,29 @@
 
 <p class="text-normal">Na této stránce se dočtete, jaký je oficiální standard plemene a níže pak také to, jaká také může být realita - případ Terinky. Přece jen je to realitvě mladé a málopočetné plemeno a odchylky tak mohou být trochu větší než třeba čekáte.</p>
 
+<nav class="menu-inferior">
+
+    <input type="checkbox" class="menu-inferior__checkbox" id="menu-checkbox-appearance">
+    
+    <label for="menu-checkbox-appearance" class="menu-inferior__toggler">☰ </label>
+    
+    <ul class="menu-inferior__list">
+    
+        <li class="menu-inferior__item"> 
+            <a href="#appearance-standard" class="menu-inferior__link">Oficiální standard</a>
+        </li>
+
+        <li class="menu-inferior__item"> 
+            <a href="#appearance-reality" class="menu-inferior__link">Vzhled Terinky</a>
+        </li>
+            
+    </ul>
+
+</nav>
+
 <section class="section">
 
-    <h2 class="title title-normal">Oficiální standard</h2>
+    <h2 class="title title-normal" id="appearance-standard">Oficiální standard</h2>
 
     <p class="text-normal">Zdroj: <a href="https://www.cmku.cz/cz">ČeskoMoravská Kynologická Unie</a> (ČMKU)</p>
 
@@ -103,19 +129,24 @@
         <h4 class="title title-category">Kohoutková výška</h4>
 
             <p class="text-normal">Psi: 45-53&nbsp;cm, feny: 43-51&nbsp;cm</p>
-            
+        
+        <figure clas="photo-page">
+            <img class="photo-page__picture" src="/images/standard.jpg" alt="Český strakatý psa - varianty">
+            <figcaption class="text-normal photo-page__text">Varianty Českého strakatého psa. Obrázek převzat z oficiálního standardu zveřejněného na web. stránkách ČeskoMoravská Kynologická Unie</figcaption>
+        </figure>
+
 </section>
 
 
 <section class="section">
 
-    <h2 class="title title-normal">Terinka</h2>
+    <h2 class="title title-normal" id="appearance-reality">Terinka</h2>
 
     <p class="text-normal">Terinka je dlouhosrstá, černožlutobíle zbarvená.</p>
 
     <p class="text-normal">Působí dojmem spíše malého, než středně velkého psa.</p>
 
-    <p class="text-normal">Výška:</p>
+    <p class="text-normal">Výška: 37,5 cm - měřeno mnou, nikoli oficiálně.</p>
 
     <p class="text-normal">Kdysi jsem někde četla, že ČSP mamí v&nbsp;dospělosti 14-20&nbsp;kg, v&nbsp;oficiálním standardu váha není. Její matka měla 12&nbsp;kg, váha Ter se pohybuje jen mezi 8-9&nbsp;kg.</p>
 
@@ -124,6 +155,13 @@
     <p class="text-normal">Co mě překvapilo byl fakt, že u&nbsp;ČSP je možné, aby se krátkosrstým rodičům narodila dlouhosrstá štěňata. Když jsem prve procházela seznam nakrytých fen, ty krátkosrté jsem z&nbsp;hledáčku hned vyhodila. Chtěla jsem přece dlouhosrtsté štěně. Jaké pak bylo mé překvapení, když jsem o&nbsp;několik měsíců později narazila na&nbsp;inzerát jedné z&nbsp;těchto chovatelských stanic, že mají ještě jednu volnou dlouhosrstou fenku menšího vzrůstu.</p>
 
     <p class="text-normal">O&nbsp;tom, jestli má některý z&nbsp;páru tzv. vlohy pro&nbsp;dlouhou srst se&nbsp;většinou dočtete. Takže pokud toužíte po&nbsp;dlouhosrsté variantě ČSP, podívejte se i na&nbsp;informace o &nbsp;krátkosrstých nakrytých fenách (a také budoucích otců štěňat), jestli náhodou nemají pro&nbsp;dlouhou srst vlohy. Pokud mají, je možné, že se jim narodí právě to štěně, po&nbsp;kterém toužíte.</p>
+
+    <figure clas="photo-page">
+
+        <img class="photo-page__picture" src="/images/ter_fox_page.jpg" alt="Český strakatý psa - Terinka">
+        <figcaption class="text-normal photo-page__text">Fotka šestileté Terinky</figcaption>
+    
+    </figure>
 
 </section>
 
@@ -135,11 +173,7 @@
 
         </main>
 
-        <footer>
-            <!--
-            <section class="footer-line">...</section>
-            <section class="footer-end">...</section>
-             -->
+        <footer> 
         </footer>
 
     </div>

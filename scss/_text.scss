@@ -1,36 +1,16 @@
 @use 'colors';
 @use 'measures';
 
-.text-highlighted{
+
+.text-highlighted {
+
     font-weight: bold;
-}
 
-/*
-.content-article{
-    text-align: center;
-}
-*/
-.title-hero {
-    text-align: center;
 }
 
 
-.title-hero-main {
-    font-size: 50px;
-}
+.text-normal {
 
-.title-hero-subtitle {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 22px;
-}
-
-h4 {
-    font-size: 18px;
+    font-family: 'PT Serif', 'Times New Roman';
+    
 }

@@ -1,0 +1,191 @@
+@use 'colors';
+@use 'text';
+@use 'measures';
+
+
+li {
+   
+    list-style-type: none;
+
+    }
+
+.menu {
+
+    margin: 0;
+    padding: 0;
+    margin-top: measures.$margin-common;
+    background-color: colors.$menu__item-color--active;
+    text-align: center;
+
+    &__checkbox {
+        
+        position: absolute;
+        left: -9999px;
+        
+        &:checked ~ .menu__list{
+            display: block;
+        }
+    }
+
+    &__toggler {
+
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+
+        @media screen and (min-width: measures.$width-tablet){
+            display: none;
+        }
+
+    }
+
+    &__list {
+        
+        display: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: colors.$menu__item-color--normal;
+
+        @media screen and (min-width: measures.$width-tablet){
+
+            display: flex;
+            width: measures.$width-tablet-line;
+            justify-content: space-around;
+            width:auto;
+
+        }
+        
+    }
+
+    &__item {
+        
+        border-bottom: 1px solid white;
+
+        @media screen and (min-width: measures.$width-tablet){
+
+            width: auto;
+            font-size: 20px;
+            flex-grow: 1;
+            text-align: center;
+            border-bottom: 0;
+
+        }
+    
+    }
+
+    &__item--active {
+
+        @media screen and (min-width: measures.$width-tablet){
+
+            background-color: colors.$menu__item-color--active;
+        
+        }
+
+    }
+
+
+    &__link {
+
+        display: block;
+        text-decoration: none;
+        padding-top: measures.$padding;
+        padding-bottom: measures.$padding;
+        color: colors.$menu__item-color--text;
+        
+        &:hover {
+            background-color: colors.$menu__item-color--active;
+        }
+        
+    }
+
+}
+
+
+.menu-inferior {
+    
+    margin: 0;
+    padding: 0;
+    margin-top: measures.$margin-common;
+
+    &__checkbox {
+        
+        position: absolute;
+        left: -9999px;
+        
+        &:checked ~ .menu-inferior__list {
+            display: block;
+        }
+    }
+
+    &__toggler {
+
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+
+        @media screen and (min-width: measures.$width-tablet) {
+            display: none;
+        }
+
+    }
+
+    &__list {
+        
+        display: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: none;
+
+        @media screen and (min-width: measures.$width-tablet) {
+
+            display: flex;
+            width: measures.$width-tablet-line;
+            justify-content: center;
+            width:auto;
+
+            border-width: 1px 0 2px 0;
+            border-style: solid;
+            padding-top: 10px;
+            border-color: colors.$title-category-color;
+            }    
+
+        }
+        
+    
+
+    &__item {
+        
+        border-bottom: 1px solid white;
+
+        @media screen and (min-width: measures.$width-tablet){
+
+            width: auto;
+            font-size: 20px;
+            flex-grow: 1;
+            text-align: center;
+            border-bottom: 0;
+
+        }
+    
+    }
+
+    &__link {
+
+        display: block;
+        text-decoration: none;
+        padding-top: measures.$padding;
+        padding-bottom: measures.$padding;
+        color: colors.$menu__item-color--normal;
+        
+        &:hover {
+            color: colors.$menu__item-color--active;
+            font-weight: bold;
+        }    
+        
+    }
+
+}
+

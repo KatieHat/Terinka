@@ -1,0 +1,36 @@
+@use 'measures';
+
+.photo-page {
+
+    &__picture {
+
+        width: 100%;
+        border-radius: 5%;
+        margin-top: 20px;
+    
+        @media screen and (min-width: measures.$width-tablet) {
+    
+            width: auto;
+    
+        }
+    
+    }
+
+    &__text {
+
+        font-size: 10px;
+        font-style: italic;
+        margin-bottom: 10px;
+        width: 100%;
+
+        @media screen and (min-width: measures.$width-tablet) {
+    
+            width: 444px;
+            margin-left: auto;
+            margin-right: auto;
+    
+        }
+    
+    }
+
+}

@@ -2,25 +2,39 @@
 @use 'text';
 @use 'measures';
 
-.grid{
+/* ----- nastavení GRIDu, použit zatím jen na stránce Povaha > nejčastější problémy -----*/
 
-    text-align: justify;
+.grid {
+
+    text-align: center;
     display: grid;
     gap: 20px;
     
     
     align-items: start;
 
-    &-title{
+    @media screen and (min-width: measures.$width-tablet) {
+
+        text-align: justify;
+
+    }
+
+    &__title {
 
         grid-column-start: 1;
         grid-column-end: 4;
-        text-align: justify;
-        background-color: yellowgreen;
+        text-align: center;
         margin: 0;
+
+        @media screen and (min-width: measures.$width-tablet) {
+
+            text-align: justify;
+    
+        }
+
     }
 
-    &-normal{
+    &__text-normal {
 
         grid-column-start: 1;
         grid-column-end: 4;
@@ -28,21 +42,30 @@
     
     }
 
-    &-subtitle{
+    &__subtitle {
 
-        text-align: justify;
-        background-color: rgb(105, 91, 91);
+        text-align: center;
         margin: 0;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        @media screen and (min-width: measures.$width-tablet) {
+
+            text-align: justify;
+            grid-column-end: 2;
+    
+        }
 
     }
 
-    &-text{
+
+    &__text {
 
         grid-column-start: 1;
         grid-column-end: 4;
         margin: 0;
         
-        @media screen and (min-width: measures.$width-tablet){
+        @media screen and (min-width: measures.$width-tablet) {
 
             grid-column-start: 2;
 

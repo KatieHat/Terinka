@@ -12,9 +12,10 @@ $menu__item-color--text: #F5E4E0;
 $title-main-color: #2E170F;
 $title-normal-color: #6c3523;
 $title-subtitle-color: #6C3523;
-$title-category-color: #E6AA68;
+$title-category-color: #cf8b43;
 
 $content-line-color: #F5E4E0;
+
 
 /*#4D2319 - tmave hneda
 #2E170F - tmavsi hneda
@@ -24,108 +25,3 @@ $content-line-color: #F5E4E0;
 --------------------------
 #E6AA68 - stredne bezova (fawn)*/
 
-body {
-    /*pozadí - packy
-
-    background-image: url(/images/footprints.svg);
-    background-repeat: repeat;
-    background-size: 80px;
-    background-position: center;
-
-    */
-
-    background-image: linear-gradient($content-line-color, $menu__item-color--normal);
-
-}
-
-.hero {
-    /*
-    background-color: $background-hero-color;
-    background-image: url(/images/footprints.svg);
-    background-repeat: repeat;
-    background-size: 40px;
-    background-position: center;*/
-
-    /*background-image: linear-gradient(#6C3523, #2E170F 10%, #6C3523 50%, #2E170F 90%, #6C3523 100%);*/
-    background-image: linear-gradient($title-hero-color, $menu__item-color--normal 30%, $title-hero-color );
-}
-
-.photo-hero{
-    background-color: $content-line-color;
-}
-
-.title-hero{
-    color: $menu__item-color--text;
-}
-
-.title{
-    color: $title-color;
-}
-
-.title-main{
-    color: $title-main-color;
-}
-
-.title-normal{
-    color: $title-normal-color;
-}
-
-.title-subtitle{
-    color: $title-subtitle-color;
-}
-
-.title-category{
-    color: $title-category-color;
-}
-
-.menu{
-    background-color: $menu__item-color--active;
-
-    &__item--active{
-
-        @media screen and (min-width: measures.$width-tablet){
-
-            background-color: $menu__item-color--active;
-        
-        }
-
-    }
-
-    &__list{
-        
-        background-color: $menu__item-color--normal;
-        
-    }
-    
-
-    &__link{
-        color: $menu__item-color--text;
-
-        &:hover{
-            background-color: $menu__item-color--active;
-        }
-
-    }
-
-}
-
-
-
-
-.content-line{
-    background-color: $content-line-color;
-}
-
-footer{
-    background-color: $menu__item-color--active;
-}
-
-/*
-.footer-line{
-    background-color: $menu__item-color--normal;
-}
-
-.footer-end{
-    background-color: $menu__item-color--active;
-}
-*/

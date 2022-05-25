@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="cs">
+
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="/css/style.css">
 
 <body>
@@ -68,19 +74,48 @@
     
 <h1 class="title title-main">Povaha a problémové chování</h1>
 
-<h2 class="title title-normal">Oficální standard</h2>
+    <nav class="menu-inferior">
 
-<p class="text-normal grid-normal">Přátelský k&nbsp;lidem i zvířatům, aktivní, vytrvalý, všestranný sportovní a společenský pes. Bystře sleduje okolí, dobrý hlídač, ne však agresivní.</p>
+        <input type="checkbox" class="menu-inferior__checkbox" id="menu-checkbox-nature">
+        
+        <label for="menu-checkbox-nature" class="menu-inferior__toggler">☰ </label>
+        
+        <ul class="menu-inferior__list">
+        
+            <li class="menu-inferior__item"> 
+                <a href="#nature-standard" class="menu-inferior__link">Oficiální standard</a>
+            </li>
 
-<p class="text-normal grid-normal">(Zdroj: <a href="https://www.cmku.cz/cz">ČeskoMoravská Kynologická Unie</a>)</p>
+            <li class="menu-inferior__item"> 
+                <a href="#nature-reality" class="menu-inferior__link">Reálné zkušenosti a nejčastější problémy</a>
+            </li>
 
+            <li class="menu-inferior__item"> 
+                <a href="#nature-problems" class="menu-inferior__link">Terinčiny problémy</a>
+            </li>
+            
+                
+        </ul>
+
+    </nav>
+
+<section class="section">
+<h2 class="title title-normal" id="nature-standard">Oficální standard</h2>
+
+<p class="text-normal">Přátelský k&nbsp;lidem i zvířatům, aktivní, vytrvalý, všestranný sportovní a společenský pes. Bystře sleduje okolí, dobrý hlídač, ne však agresivní.</p>
+
+<p class="text-normal">(Zdroj: <a href="https://www.cmku.cz/cz">ČeskoMoravská Kynologická Unie</a>)</p>
+
+<!--
 *## Co se také dočtete*
+-->
 
-<h2 class="title title-normal">Reálné zkušenosti a nejčastější problémy</h2>
+<h2 class="title title-normal" id="nature-reality">Reálné zkušenosti a nejčastější problémy</h2>
 
-    <p class="text-normal grid-normal">Přátelská k&nbsp;lidem a zvířatům rozhodně je. Někdy až moc. Samozřejmě záleží na&nbsp;zkušenostech - jednu dobu se po nepříjmené zkušenosti bála dětí.</p>
 
-    <p class="text-normal grid-normal">Co se dobrého hlídače týče - počítejte raději s&nbsp;tím, že se taky může stát, že budete mít vítacího psa, který ani nepípne, abyste mu pozornost návštěvy náhodou nepřebrali.</p>
+    <p class="text-normal">Přátelská k&nbsp;lidem a zvířatům rozhodně je. Někdy až moc. Samozřejmě záleží na&nbsp;zkušenostech - jednu dobu se po nepříjmené zkušenosti bála dětí.</p>
+
+    <p class="text-normal">Co se dobrého hlídače týče - počítejte raději s&nbsp;tím, že se taky může stát, že budete mít vítacího psa, který ani nepípne, abyste mu pozornost návštěvy náhodou nepřebrali.</p>
 
 
 <!--### Energie
@@ -90,80 +125,113 @@ Navíc byla “ADHD”, jak jsem tomu říkala. Neuvěřitelně roztěkaná, mě
 
     <h3 class="title title-subtitle">Samota</h3>
         
-    <p class="text-normal grid-normal">Trénink samoty opravdu nepodceňujte. U&nbsp;ČSP je to častý problém. Upozorňovala mě na&nbsp;to i chovatelka a také jsme s&nbsp;tím s&nbsp;Ter docela dlouho bojovaly (podrobněji viz níže).</p>
+    <p class="text-normal">Trénink samoty opravdu nepodceňujte. U&nbsp;ČSP je to častý problém. Upozorňovala mě na&nbsp;to i chovatelka a také jsme s&nbsp;tím s&nbsp;Ter docela dlouho bojovaly (podrobněji viz níže).</p>
 
     <h3 class="title title-subtitle">Lovecké pudy</h3>
         
-    <p class="text-normal grid-normal">Slyšela jsem, že někteří s&nbsp;tím mají problém, Ter byla v&nbsp;tomto ohledu naštěstí docela v&nbsp;pohodová - asi jako každý jiný pes. Raději jí nedávám moc příležitostí mi dokázat, že problém nemá, ale pokud vidí zvíře v&nbsp;dálce, tak se za&nbsp;ním nerozběhne.</p>
+    <p class="text-normal">Slyšela jsem, že někteří s&nbsp;tím mají problém, Ter byla v&nbsp;tomto ohledu naštěstí docela v&nbsp;pohodová - asi jako každý jiný pes. Raději jí nedávám moc příležitostí mi dokázat, že problém nemá, ale pokud vidí zvíře v&nbsp;dálce, tak se za&nbsp;ním nerozběhne.</p>
 
     <h3 class="title title-subtitle">Výchovné metody</h3>
 
-    <p class="text-normal grid-normal">Co se výchovný ch metod týče, jednoznačně doporučuji “pozitivku” – pozitivní motivace. Je to ten typ psa, který rád chválen. Opravováním bych ji demotivovala. To by ji nebavilo, výcvik by trval o to déle a trápili bychom se obě. Křikem by hrozilo, že ji zlomím, a to jsem nechtěla a nechci. Nemívají to tak všichni psi, ale Ter byla vždy hrozná citlivka.</p>
+    <p class="text-normal">Co se výchovný ch metod týče, jednoznačně doporučuji “pozitivku” – pozitivní motivace. Je to ten typ psa, který rád chválen. Opravováním bych ji demotivovala. To by ji nebavilo, výcvik by trval o to déle a trápili bychom se obě. Křikem by hrozilo, že ji zlomím, a to jsem nechtěla a nechci. Nemívají to tak všichni psi, ale Ter byla vždy hrozná citlivka.</p>
         
-    <p class="text-normal grid-normal">Co se odměn týče, některých případech pracovala mnohem lépe za hračku, resp. hru s hračkou, než za pamlsky. Všichni psi, se kterými jsem měla v minulosti co dočinění, byli jednoznačně zaměření na pamlsky, takže tohle byla pro mě novinka.</p>
+    <p class="text-normal">Co se odměn týče, některých případech pracovala mnohem lépe za hračku, resp. hru s hračkou, než za pamlsky. Všichni psi, se kterými jsem měla v minulosti co dočinění, byli jednoznačně zaměření na pamlsky, takže tohle byla pro mě novinka.</p>
 
-
+</section>
     
-<h2 class="title title-normal">Terinčiny problémy</h2>
+<section class="section">
+<h2 class="title title-normal" id="nature-problems">Terinčiny problémy</h2>
+    <nav class="menu-inferior">
+
+        <input type="checkbox" class="menu-inferior__checkbox" id="menu-checkbox-problems">
+        
+        <label for="menu-checkbox-problems" class="menu-inferior__toggler">☰ </label>
+        
+        <ul class="menu-inferior__list">
+        
+            <li class="menu-inferior__item"> 
+                <a href="#solitude" class="menu-inferior__link">Samota</a>
+            </li>
+
+            <!--
+            <li class="menu-inferior__item"> 
+                <a href="#summoning" class="menu-inferior__link">Přivolání</a>
+            </li>
+            -->
+
+            <li class="menu-inferior__item"> 
+                <a href="#car" class="menu-inferior__link">Cesta autem</a>
+            </li>
+            
+            <li class="menu-inferior__item"> 
+                <a href="#children" class="menu-inferior__link">Strach z dětí</a>
+            </li>
+                
+        </ul>
+
+    </nav>
 
 <section class="grid">
     
-    <h3 class="title title-subtitle grid-title">Samota - štěkání a ničení věcí</h3>
+    <h3 class="title title-subtitle grid__title" id="solitude">Samota - štěkání a ničení věcí</h3>
 
         
-    <p class="text-normal grid-normal">Ter miluje společnost. Lidskou i psí. Už odmalička nechtěla být sama. Když jsem ji na&nbsp;chvíli nechala samotnou, ať už na&nbsp;5&nbsp;minut, nebo jsem šla do&nbsp;práce, pokaždé dávala svou nevoli hlasitě najevo. Pokud zrovna nespala, tak naříkala. A to takovým způsobem, že ji bylo slyšet ze 6.&nbsp;patra až dolů do&nbsp;přízemí. <span class="text-highlighted">Trvalo to 3&nbsp;měsíce, než si zvykla</span>, že přes den zůstává sama doma, zatímco já jsem v&nbsp;práci. Asi si umíte představit, že sousedé z&nbsp;toho nebyli zrovna nadšení.</p>
+    <p class="text-normal grid__text-normal">Ter miluje společnost. Lidskou i psí. Už odmalička nechtěla být sama. Když jsem ji na&nbsp;chvíli nechala samotnou, ať už na&nbsp;5&nbsp;minut, nebo jsem šla do&nbsp;práce, pokaždé dávala svou nevoli hlasitě najevo. Pokud zrovna nespala, tak naříkala. A to takovým způsobem, že ji bylo slyšet ze 6.&nbsp;patra až dolů do&nbsp;přízemí. <span class="text-highlighted">Trvalo to 3&nbsp;měsíce, než si zvykla</span>, že přes den zůstává sama doma, zatímco já jsem v&nbsp;práci. Asi si umíte představit, že sousedé z&nbsp;toho nebyli zrovna nadšení.</p>
 
-    <p class="text-normal grid-normal">Kromě hlasitého projevu dávala svou nelibost ze samoty najevo i jinak. Poškrábané dveře, omítka ze&nbsp;zdí, okousaný nábytek, natržené lino (přes které jsem pak měla problém vůbec se dostat do&nbsp;bytu), zničené kobercové lišty (kdybych věděla, že se jí nebudou líbit, tak si je nepořizuju), rozkousaný dálkový ovladač zapomenutý na&nbsp;konferenčním stolku, okousaný mobilní telefon zapomenutý tamtéž, zatímco jsem si šla dát sprchu. Roztržená kapsa od&nbsp;bundy, když jsem v&nbsp;ní zapomněla pamlsky a bundu nechala v jejím dosahu. Tradičně velmi ohrožené boty přežily, ty se mi podařilo chránit – nenechávat je se psem o&nbsp;samotě.</p>
+    <p class="text-normal grid__text-normal">Kromě hlasitého projevu dávala svou nelibost ze samoty najevo i jinak. Poškrábané dveře, omítka ze&nbsp;zdí, okousaný nábytek, natržené lino (přes které jsem pak měla problém vůbec se dostat do&nbsp;bytu), zničené kobercové lišty (kdybych věděla, že se jí nebudou líbit, tak si je nepořizuju), rozkousaný dálkový ovladač zapomenutý na&nbsp;konferenčním stolku, okousaný mobilní telefon zapomenutý tamtéž, zatímco jsem si šla dát sprchu. Roztržená kapsa od&nbsp;bundy, když jsem v&nbsp;ní zapomněla pamlsky a bundu nechala v jejím dosahu. Tradičně velmi ohrožené boty přežily, ty se mi podařilo chránit – nenechávat je se psem o&nbsp;samotě.</p>
     
 
     
-        <h4 class="title title-category grid-subtitle">Co pomohlo</h4>
+        <h4 class="title title-category grid__subtitle">Co pomohlo</h4>
 
-        <p class="text-normal grid-text">Zkoušela jsem všechno možné. Neloučit se s&nbsp;ní a po příchodu se s&nbsp;ní nevítat (to, že odcházím/přicházím je přece normální), nechávala jsem jí puštěné rádio, zkoušela jsem i TV, nechávala jsem jí doma pamlsky, které musela dolovat z&nbsp;hračky, po&nbsp;tel. konzultaci s&nbsp;psí trenérkou jsem jí pořídila feromonový obojek, dávala určité pamlsky "na&nbsp;uklidnění" (měla jsem i poznačené, co koupit u&nbsp;veterináře, kdyby tyto  nepomohly), natáčela jsem ji na&nbsp;video, které jsem si vždy po&nbsp;práci zrychleně pouštěla, abych viděla, co doma dělá a jestli to její vyvádění nezpůsobuje něco konrétního. Dostala jsem i nějaké další tipy na&nbsp;to, jak ji zabavit na&nbsp;delší dobu, aby nemyslela na&nbsp;to, že je sama.</p>
+        <p class="text-normal grid__text">Zkoušela jsem všechno možné. Neloučit se s&nbsp;ní a po příchodu se s&nbsp;ní nevítat (to, že odcházím/přicházím je přece normální), nechávala jsem jí puštěné rádio, zkoušela jsem i TV, nechávala jsem jí doma pamlsky, které musela dolovat z&nbsp;hračky, po&nbsp;tel. konzultaci s&nbsp;psí trenérkou jsem jí pořídila feromonový obojek, dávala určité pamlsky "na&nbsp;uklidnění" (měla jsem i poznačené, co koupit u&nbsp;veterináře, kdyby tyto  nepomohly), natáčela jsem ji na&nbsp;video, které jsem si vždy po&nbsp;práci zrychleně pouštěla, abych viděla, co doma dělá a jestli to její vyvádění nezpůsobuje něco konrétního. Dostala jsem i nějaké další tipy na&nbsp;to, jak ji zabavit na&nbsp;delší dobu, aby nemyslela na&nbsp;to, že je sama.</p>
 
-        <p class="text-normal grid-text">Doteď netuším, co vlastně nakonec zafungovalo. Možná kombinace toho všeho a času.</p>
+        <p class="text-normal grid__text">Doteď netuším, co vlastně nakonec zafungovalo. Možná kombinace toho všeho a času.</p>
 
-        <p class="text-normal grid-text">Pamatuji si, že už jsem se dokonce preventivně mě dívala po&nbsp;jiných nájmech (s&nbsp;takovou nás brzy vyhodí) a přemýšlela, jestli by jí s&nbsp;někým jiným nebylo lépe. Třeba s&nbsp;někým, kdo má dům a sousedí by to neslyšeli tak intenzivně. A najednou klid. Zvykla si. Teď už ani nepípne, když je doma sama. Sousedé se dokonce zprvu ptali, jestli ji ještě stále mám. Doma vydrží i 10&nbsp;h sama, ale to opravdu jen ve&nbsp;velice výjimečných případech.</p>
+        <p class="text-normal grid__text">Pamatuji si, že už jsem se dokonce preventivně mě dívala po&nbsp;jiných nájmech (s&nbsp;takovou nás brzy vyhodí) a přemýšlela, jestli by jí s&nbsp;někým jiným nebylo lépe. Třeba s&nbsp;někým, kdo má dům a sousedí by to neslyšeli tak intenzivně. A najednou klid. Zvykla si. Teď už ani nepípne, když je doma sama. Sousedé se dokonce zprvu ptali, jestli ji ještě stále mám. Doma vydrží i 10&nbsp;h sama, ale to opravdu jen ve&nbsp;velice výjimečných případech.</p>
 
-        <p class="text-normal grid-text">Nejnáročnějším na&nbsp;tom všem bylo zachovat klid a nekřičet na&nbsp;ni. Ter má velmi citlivou povahu. Stačilo jen trochu zvednout hlas a ona už se krčila jakoby čekala ránu. Přitom jsem ji nikdy neuhodila. V&nbsp;mé přítomnosti nic neničila (resp. dala si hned říct), škody byly jen když jsem ji nechala samotnou.</p>
+        <p class="text-normal grid__text">Nejnáročnějším na&nbsp;tom všem bylo zachovat klid a nekřičet na&nbsp;ni. Ter má velmi citlivou povahu. Stačilo jen trochu zvednout hlas a ona už se krčila jakoby čekala ránu. Přitom jsem ji nikdy neuhodila. V&nbsp;mé přítomnosti nic neničila (resp. dala si hned říct), škody byly jen když jsem ji nechala samotnou.</p>
 
-        <p class="text-normal grid-text">Doteď si netroufnu ji nechat samotnou někde na&nbsp;ubytování. Když zůstane sama u&nbsp;našich, tak doposud dělává protestní hromádku nebo loužičku. A nezáleží na tom, jak dlouho ji necháme samotnou. Bez&nbsp;problému to zvládá jen doma a solidní úspěšnost má i na&nbsp;naší chatě.</p>
+        <p class="text-normal grid__text">Doteď si netroufnu ji nechat samotnou někde na&nbsp;ubytování. Když zůstane sama u&nbsp;našich, tak doposud dělává protestní hromádku nebo loužičku. A nezáleží na tom, jak dlouho ji necháme samotnou. Bez&nbsp;problému to zvládá jen doma a solidní úspěšnost má i na&nbsp;naší chatě.</p>
 
     
 
 
-<!--*### Přivolání
-<p class="text-normal">S přivoláním byl problém od úplného začátku. Nejspíše jste slyšeli o tom, že malé štěně se vás drží. Já o tom také slyšela, bohužel Terinka evidentně ne. Venku bylo cokoliv zajímavější než já. Pejsci, ptáčci, lidé, děti, motýlci, lísteček… Prostě cokoli.Do parku jsem proto brala 10 metrové vodítko a pouštěla jsem jí spravuje na něm. Pak jsem si všimla, že se hezky drží některých svých psích kamarádů. Takže s takovým kamarádem, který uměl při volání, jsem ji občas pustila, ať se proběhne. Jinak jsem jí pohyb řešila portem na desetimetrové vodítku, dlouhými procházkami a začala jsem kvůli ní dokonce i běhat.</p>
-<p class="text-normal">Aby za mnou venku přišla, musela jsem být zábavnější, než cokoli jiného. Pomohlo při volání na klacík. Pouštěla jsem jí jen, když jsem měla v ruce klacík, na který jsem jí v případě potřeby přivolala a za odměnu jsme se o něj přetahovali. To jí moc bavilo, takže toto při volání mi fungovalo dobře. Jen jsem si musela dát pozor, abych vždy nějaký měla k dispozici. Tj. aby mi i po odhození aportuje jen zůstal. Později jsme chodili na takzvané přivolávatčské hry a ty nám hodně pomohly. Teď už můžu ter pustit prakticky kdekoliv a vím, že by přišla. Nezapomínám však o kolik je můj reflex ní oblouk delší, než její a na některých místech to proto neriskují ani teď. Aby se jí něco nestalo, například nepřijelo jí auto.*</p>
--->
-
-<h3 class="title title-subtitle grid-title">Štěkání v autě</h3>
-    
-    <p class="text-normal grid-normal">Jako malá cestu autem proštěkala.</p>
-    
-    
-    
-
-        <h4 class="title title-category grid-subtitle">Co pomohlo</h4>
-            
-        <p class="text-normal grid-text">Naštěstí jsme jezdívaly autem několikrát týdně (na cvičák, na návštěvy…), takže ji to pak brzy přešlo. Teď už je jízda v&nbsp;autě s&nbsp;ní naprosto pohodová a je zvyklá tam chvíli zůstat sama, abych např. zaplatila za&nbsp;benzín po&nbsp;natankování.</p>
-    
-
-<h3 class="title title-subtitle grid-title">Strach z dětí</h3>
-    
-
-<p class="text-normal grid-normal">Ter měla v&nbsp;mládí nepříjemnou zkušenost s&nbsp;jednou asi 10 letou holčičkou a chvíli trvalo, než se přestala bát dětí. Doposud před&nbsp;nimi prchá, když jsou na&nbsp;ni moc hr.</p>
-
-
-
+<!--*<h3 class="title title-subtitle grid-title" id="summoning">Přivolání</h3>
+<p class="text-normal grid-normal">S přivoláním byl problém od úplného začátku. Nejspíše jste slyšeli o tom, že malé štěně se vás drží. Já o tom také slyšela, bohužel Terinka evidentně ne. Venku bylo cokoliv zajímavější než já. Pejsci, ptáčci, lidé, děti, motýlci, lísteček… Prostě cokoli.Do parku jsem proto brala 10 metrové vodítko a pouštěla jsem jí spravuje na něm. Pak jsem si všimla, že se hezky drží některých svých psích kamarádů. Takže s takovým kamarádem, který uměl při volání, jsem ji občas pustila, ať se proběhne. Jinak jsem jí pohyb řešila portem na desetimetrové vodítku, dlouhými procházkami a začala jsem kvůli ní dokonce i běhat.</p>
 
     <h4 class="title title-category grid-subtitle">Co pomohlo</h4>
 
-    <p class="text-normal grid-text">Vídali jsme se s&nbsp;mojí kamarádkou, která v&nbsp;té době měla malé, ale moc šikovné děti, které si daly říct a Ter nenaháněli a zvládli si jí nevšímat, když jsme je o&nbsp;to požádali. Ter tak postupně zjistila, že se jich nemusí bát. Naopak, že jsou skvělí na&nbsp;házení míčků. Zprvu jsem jim musela dělat prostředníka a míčet od psa převzít a předat dítěti. Postupně je začala nosit přímo jim. Teď už spolu vycházejí výborně.</p>
+    <p class="text-normal grid-text">Aby za mnou venku přišla, musela jsem být zábavnější, než cokoli jiného. Pomohlo při volání na klacík. Pouštěla jsem jí jen, když jsem měla v ruce klacík, na který jsem jí v případě potřeby přivolala a za odměnu jsme se o něj přetahovali. To jí moc bavilo, takže toto při volání mi fungovalo dobře. Jen jsem si musela dát pozor, abych vždy nějaký měla k dispozici. Tj. aby mi i po odhození aportuje jen zůstal. Později jsme chodili na takzvané přivolávatčské hry a ty nám hodně pomohly. Teď už můžu ter pustit prakticky kdekoliv a vím, že by přišla. Nezapomínám však o kolik je můj reflex ní oblouk delší, než její a na některých místech to proto neriskují ani teď. Aby se jí něco nestalo, například nepřijelo jí auto.*</p>
+-->
+
+<h3 class="title title-subtitle grid__title" id="car">Štěkání v autě</h3>
+    
+    <p class="text-normal grid__text-normal">Jako malá cestu autem proštěkala.</p>
+    
+    
+    
+
+        <h4 class="title title-category grid__subtitle">Co pomohlo</h4>
+            
+        <p class="text-normal grid__text">Naštěstí jsme jezdívaly autem několikrát týdně (na cvičák, na návštěvy…), takže ji to pak brzy přešlo. Teď už je jízda v&nbsp;autě s&nbsp;ní naprosto pohodová a je zvyklá tam chvíli zůstat sama, abych např. zaplatila za&nbsp;benzín po&nbsp;natankování.</p>
+    
+
+<h3 class="title title-subtitle grid__title" id="children">Strach z dětí</h3>
+    
+
+<p class="text-normal grid__text-normal">Ter měla v&nbsp;mládí nepříjemnou zkušenost s&nbsp;jednou asi 10 letou holčičkou a chvíli trvalo, než se přestala bát dětí. Doposud před&nbsp;nimi prchá, když jsou na&nbsp;ni moc hr.</p>
+
+
+
+
+    <h4 class="title title-category grid__subtitle">Co pomohlo</h4>
+
+    <p class="text-normal grid__text">Vídali jsme se s&nbsp;mojí kamarádkou, která v&nbsp;té době měla malé, ale moc šikovné děti, které si daly říct a Ter nenaháněli a zvládli si jí nevšímat, když jsme je o&nbsp;to požádali. Ter tak postupně zjistila, že se jich nemusí bát. Naopak, že jsou skvělí na&nbsp;házení míčků. Zprvu jsem jim musela dělat prostředníka a míčet od psa převzít a předat dítěti. Postupně je začala nosit přímo jim. Teď už spolu vycházejí výborně.</p>
 
 </section>
 
-
+</section>
 
 </main>
 
@@ -172,11 +240,7 @@ Navíc byla “ADHD”, jak jsem tomu říkala. Neuvěřitelně roztěkaná, mě
 
         </main>
 
-        <footer>
-            <!--
-            <section class="footer-line">...</section>
-            <section class="footer-end">...</section>
-             -->
+        <footer> 
         </footer>
 
     </div>
