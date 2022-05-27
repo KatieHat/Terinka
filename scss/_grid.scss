@@ -1,5 +1,3 @@
-@use 'colors';
-@use 'text';
 @use 'measures';
 
 /* ----- nastavení GRIDu, použit zatím jen na stránce Povaha > nejčastější problémy -----*/
@@ -8,7 +6,7 @@
 
     text-align: center;
     display: grid;
-    gap: 20px;
+    gap: measures.$grid__gap;
     
     
     align-items: start;
@@ -72,5 +70,18 @@
         }
 
     }
+
+    & :first-child {
+
+        margin-top: measures.$grid__first-child-margin-top;
+
+        &::before {
+            
+            display: none;
+    
+        }  
+    
+    }
+    
 
 }

@@ -1,0 +1,39 @@
+@use 'colors';
+@use 'text';
+@use 'measures';
+
+@use 'grid';
+
+
+
+/* tlačítko zpět */
+
+.back {
+
+    color: colors.$back__text-color;
+    padding: measures.$back__padding;
+    border-radius: measures.$back__border-radius;
+    border-color: colors.$back__border-color;
+    border-style: solid;
+    border-width: measures.$back__border-width;
+    display: inline-block;
+    margin-top: measures.$back__margin-top;
+    text-decoration: none;
+
+    &:hover {
+
+        background-color: colors.$back__background-color--active;
+        color: colors.$back__text-color--active;
+        box-shadow: measures.$shadow__width measures.$shadow__width colors.$shadow__color;
+        border-color: colors.$back__border-color--active;
+
+    }
+
+}
+
+.grid .back {
+
+    text-align: center;
+    grid-column-start: 2;
+
+}

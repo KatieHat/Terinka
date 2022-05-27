@@ -1,0 +1,128 @@
+@use 'colors';
+@use 'text';
+@use 'measures';
+
+
+/* ----- HERO ČÁST -----*/
+
+.hero {
+
+    display: flex;
+    background-image: linear-gradient(colors.$hero__background-color--dark, colors.$hero__background-color--light 30%, colors.$hero__background-color--dark );
+
+}
+
+
+.photo-hero {
+    
+    background-color: colors.$photo-hero__background-color;
+    width: measures.$photo-hero__width;
+    min-width: measures.$photo-hero__min-width;
+    padding-right: measures.$photo-hero__padding-right;
+    
+}
+
+.title-hero {
+
+    font-family: text.$title-hero__font-family;
+    color: colors.$title-hero__color;
+    text-align: center;
+    margin: auto;
+
+    &__main{
+
+    font-size: text.$title-hero__font-size--mobile;
+    margin: auto;
+    padding-top: measures.$title-hero__main__padding;
+    padding-bottom: measures.$title-hero__main__padding;
+
+        @media screen and (min-width: measures.$width-tablet){
+
+            font-size: text.$title-hero__font-size--tablet;
+            
+        }
+
+        @media screen and (min-width: measures.$width-pc){
+
+            width: measures.$width-tablet-line;
+            font-size: text.$title-hero__font-size--pc;
+            
+        }
+
+    }
+
+    &__subtitle {
+
+        font-size: text.$title-hero__subtitle__font-size--mobile;
+        margin: 0 auto;
+        padding-top: measures.$title-hero__subtitle__padding;
+
+        @media screen and (min-width: measures.$width-tablet) {
+
+            font-size: text.$title-hero__subtitle__font-size--tablet;
+            
+        }
+
+    }
+
+}
+
+
+/* ----- NADPISY (ostatní - kromě hero) -----*/
+
+.title {
+
+    font-family: text.$title__font-family;
+
+}
+
+.title-main {   /*h1 kromě hero*/
+
+    color: colors.$title-main__color;
+    margin-top: measures.$title-main__margin-top;
+}
+
+
+.title-normal { /*h2 kromě hero*/
+
+    font-size: text.$title-normal__font-size;
+    margin-top: measures.$title-normal__margin-top;
+    color: colors.$title-normal__color;
+
+}
+
+.title-main + .title-normal, .menu-inferior + .title-normal {
+
+    &::before {
+        
+        display: none;
+
+    }  
+
+}
+
+
+.title-subtitle {   /*h3*/
+
+    font-size: text.$title-subtitle__font-size;
+    color: colors.$title-subtitle__color;
+
+    &::before {
+
+        content: "";
+        display: block;
+        width: measures.$title-subtitle__before__width;
+        height: measures.$title-subtitle__before__height;
+        margin-bottom: measures.$title-subtitle__before__margin-bottom;
+        background-color: colors.$title-subtitle__before__background-color;
+
+    }    
+
+}
+
+.title-category {   /*h4*/
+
+    font-size: text.$title-category__font-size;
+    color: colors.$title-category__color;
+
+}

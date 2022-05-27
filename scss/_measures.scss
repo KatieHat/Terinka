@@ -4,8 +4,61 @@ $width-tablet-line: 760px;
 $width-pc: 1200px;
 $width-pc-line: 1000px;
 
-$padding: 5px;
-$padding-article: 70px;
+$photo-hero__width: 20%;
+$photo-hero__min-width: 40px;
+$photo-hero__padding-right: 5px;
 
-$margin-common: 5px;
-$margin-end: 10%;
+$title-hero__main__padding: 5px;
+
+$title-hero__subtitle__padding: 5px 0;
+
+$title-main__margin-top: 50px;
+$title-normal__margin-top: 50px;
+
+
+$section__padding-bottom: 50px;
+$section__before__margin-bottom:50px;
+$section__before__height: 1px;
+$section__before__width: 100%;
+
+$title-subtitle__before__margin-bottom: 30px;
+$title-subtitle__before__height: 1px;
+$title-subtitle__before__width: 100%;
+
+$menu__margin-top: 5px;
+$menu__item__border-bottom__width: 1px;
+$menu__item__padding: 5px 0;
+$menu__link__padding: 5px 0;
+
+$menu-inferior__margin-top: 5px;
+$menu-inferior__list__border-width--tablet: 1px 0 2px 0;
+$menu-inferior__list__padding-top--tablet: 10px;
+
+$menu-inferior__item__border-bottom__width: 1px;
+$menu-inferior__link__padding: 5px 0;
+
+$body__margin: 0;
+$body__padding: 0px;
+
+$article__padding: 70px;
+$article__margin-bottom: 10%;
+
+$grid__gap: 20px;
+$grid__first-child-margin-top: 16px;
+
+$photo-page__picture__width: 100%;
+$photo-page__picture__border-radius: 5%;
+$photo-page__picture__margin-top: 20px;
+
+$photo-page__text__margin-bottom: 10px;
+$photo-page__text__width: 100%;
+$photo-page__text__width--tablet: 444px;
+
+$back__border-radius: 10%;
+$back__margin-top: 15px;
+$back__border-width: 1px;
+$back__padding: 5px;
+
+$shadow__width: 3px;
+
+$footer__high: 50px;

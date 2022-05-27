@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="cs">
 
-    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="/css/style.css">
 
-<body>
+<body class="body">
     
     <div class="content-line">
             
@@ -18,17 +18,18 @@
             
             <div class="title-hero">
 
-                <h1 class="title-hero-main">Terinka</h1>
-                <h2 class="title-hero-subtitle">jeden Český strakatý pes</h2>
+                <h1 class="title-hero__main">Terinka</h1>
+
+                <h2 class="title-hero__subtitle">jeden Český strakatý pes</h2>
             
             </div>
             
         </header>
 
-        <main class="content">
+        <main class="content-line__content">
 
             
-<nav class="menu">
+<nav class="menu" id="menu-main">
 
     <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
 	
@@ -68,7 +69,7 @@
 
 
 
-<main class="content-article">
+<main class="content-line__article">
 
     <h1 class="title title-main">Vzhled</h1>
 
@@ -95,6 +96,8 @@
 </nav>
 
 <section class="section">
+
+    <!--Oficiální standard (vzhled)-->
 
     <h2 class="title title-normal" id="appearance-standard">Oficiální standard</h2>
 
@@ -135,10 +138,14 @@
             <figcaption class="text-normal photo-page__text">Varianty Českého strakatého psa. Obrázek převzat z oficiálního standardu zveřejněného na web. stránkách ČeskoMoravská Kynologická Unie</figcaption>
         </figure>
 
+    <a href="#menu-main" class="text-normal back">Zpět ↑</a>
+ 
+
 </section>
 
 
 <section class="section">
+    <!--Realita Terinky (vzhled)-->
 
     <h2 class="title title-normal" id="appearance-reality">Terinka</h2>
 
@@ -163,6 +170,9 @@
     
     </figure>
 
+    <a href="#menu-main" class="text-normal back">Zpět ↑</a>
+ 
+
 </section>
 
 
@@ -173,7 +183,7 @@
 
         </main>
 
-        <footer> 
+        <footer class= "content-line__footer"> 
         </footer>
 
     </div>

@@ -1,21 +1,58 @@
 @use 'measures';
 
 
-$title-color: #6C3523;
-$title-hero-color:#2E170F;
+$hero__background-color--dark: #2E170F;
+$hero__background-color--light: #6C3523;
+
+$photo-hero__background-color: #F5E4E0;
+
+$title__color: #6C3523;
+$title-hero__color:#F5E4E0;
+$title-hero__mar:#F5E4E0;
+
 $background-hero-color: #E6C0B2;
 
 $menu__item-color--active: #2E170F;
 $menu__item-color--normal: #6C3523;
 $menu__item-color--text: #F5E4E0;
 
-$title-main-color: #2E170F;
-$title-normal-color: #6c3523;
-$title-subtitle-color: #6C3523;
-$title-category-color: #cf8b43;
+$title-main__color: #2E170F;
+$title-normal__color: #6c3523;
+$title-subtitle__color: #6C3523;
+$title-category__color: #cf8b43;
 
-$content-line-color: #F5E4E0;
+$section__before__background-color: #6C3523;
 
+$title-subtitle__before__background-color: #cf8b43;
+
+$menu__background-color: #2E170F;
+$menu__toggler__color: white;
+$menu__list__color: #6C3523;
+$menu__item__border-bottom__color: white;
+$menu__link__color: #F5E4E0;
+$menu__link__color--active: #2E170F;
+
+$menu-inferior__list__border-top-color: #6C3523;
+$menu-inferior__list__border-bottom-color: #cf8b43;
+$menu-inferior__item__border-bottom__color: white;
+$menu-inferior__link__color: #6C3523;
+$menu-inferior__link__color--active: #2E170F;
+
+$content-line__color: #F5E4E0;
+
+$body__background-color--light: #F5E4E0;
+$body__background-color--dark: #6C3523;
+
+/*tlačítko zpět*/
+$back__text-color: #cf8b43;
+$back__border-color: #cf8b43;
+$back__text-color--active: #F5E4E0;
+$back__background-color--active: #cf8b43;
+$back__border-color--active: white;
+
+$shadow__color: e4d3cf;
+
+$footer__background-color: #2E170F;
 
 /*#4D2319 - tmave hneda
 #2E170F - tmavsi hneda

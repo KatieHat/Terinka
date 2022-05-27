@@ -1,12 +1,13 @@
 @use 'measures';
+@use 'text';
 
 .photo-page {
 
     &__picture {
 
-        width: 100%;
-        border-radius: 5%;
-        margin-top: 20px;
+        width: measures.$photo-page__picture__width;
+        border-radius: measures.$photo-page__picture__border-radius;
+        margin-top: measures.$photo-page__picture__margin-top;
     
         @media screen and (min-width: measures.$width-tablet) {
     
@@ -18,14 +19,14 @@
 
     &__text {
 
-        font-size: 10px;
-        font-style: italic;
-        margin-bottom: 10px;
-        width: 100%;
+        font-size: text.$photo-page__text__font-size;
+        font-style: text.$photo-page__text__font-style;
+        margin-bottom: measures.$photo-page__text__margin-bottom;
+        width: measures.$photo-page__text__width;
 
         @media screen and (min-width: measures.$width-tablet) {
     
-            width: 444px;
+            width: measures.$photo-page__text__width--tablet;
             margin-left: auto;
             margin-right: auto;
     

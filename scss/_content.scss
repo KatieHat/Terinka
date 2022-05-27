@@ -1,0 +1,95 @@
+@use 'colors';
+@use 'measures';
+@use 'text';
+
+
+
+
+.body {
+
+    margin: 0;
+    padding: measures.$body__padding;
+    background-image: linear-gradient(colors.$body__background-color--light, colors.$body__background-color--dark);
+
+
+}
+
+.text-highlighted {
+
+    font-weight: text.$text-highlighted__font-weight;
+    font-style: text.$text-highlighted__font-style;
+
+}
+
+
+.text-normal {
+
+    font-family: text.$text-normal__font-family;
+    
+}
+
+
+.section {
+
+    padding-bottom: measures.$section__padding-bottom;
+    
+    &::before {
+
+        content: "";
+        display: block;
+        width: measures.$section__before__width;
+        height: measures.$section__before__height;
+        margin-bottom: measures.$section__before__margin-bottom;
+        background-color: colors.$section__before__background-color;
+
+    }    
+
+}
+
+.menu-inferior + .section {
+
+    &::before {
+        
+        display: none;
+
+    }  
+
+}
+
+
+
+.content-line {
+
+    margin: 0 auto;
+    padding: 0;
+    background-color: colors.$content-line__color;
+
+    @media screen and (min-width: measures.$width-tablet) {
+
+        width: measures.$width-tablet-line;
+        
+    }
+
+    @media screen and (min-width: measures.$width-pc) {
+
+        width: measures.$width-pc-line;
+        
+    }
+
+    &__article {
+
+    margin: 0;
+    margin-bottom: measures.$article__margin-bottom;
+    padding: 0 measures.$article__padding;
+    text-align: center;
+    
+    }
+
+    &__footer {
+
+        height: measures.$footer__high;
+        background-color: colors.$footer__background-color;
+        
+    }
+
+}

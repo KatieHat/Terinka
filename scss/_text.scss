@@ -1,16 +1,31 @@
-@use 'colors';
-@use 'measures';
 
+$title-hero__font-family: 'PT Sans', Arial;
+$title__font-family: 'PT Sans', Arial;
 
-.text-highlighted {
+$title-hero__font-size--mobile: 30px;
+$title-hero__font-size--tablet: 40px;
+$title-hero__font-size--pc: 50px;
 
-    font-weight: bold;
+$title-hero__subtitle__font-size--mobile: 20px;
+$title-hero__subtitle__font-size--tablet: 30px;
 
-}
+$title-normal__font-size: 24px;
 
+$title-subtitle__font-size: 22px;
 
-.text-normal {
+$title-category__font-size: 18px;
 
-    font-family: 'PT Serif', 'Times New Roman';
-    
-}
+$menu__toggler__font-size: 20px;
+$menu__item__font-size--tablet: 20px;
+
+$menu-inferior__toggler__font-size: 20px;
+$menu-inferior__item__font-size--tablet: 20px;
+
+$text-normal__font-family: 'PT Serif', 'Times New Roman';
+
+$text-highlighted__font-weight: bold;
+$text-highlighted__font-style: italic;
+
+$photo-page__text__font-size: 10px;
+$photo-page__text__font-style: italic;
+
