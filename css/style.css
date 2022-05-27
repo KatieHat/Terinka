@@ -344,7 +344,7 @@
 .body {
   margin: 0;
   padding: 0px;
-  background-image: linear-gradient(#F5E4E0, #6C3523);
+  background-image: linear-gradient(#6C3523, #F5E4E0, #6C3523);
 }
 
 .text-highlighted {

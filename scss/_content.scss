@@ -9,8 +9,7 @@
 
     margin: 0;
     padding: measures.$body__padding;
-    background-image: linear-gradient(colors.$body__background-color--light, colors.$body__background-color--dark);
-
+    background-image: linear-gradient(colors.$body__background-color--dark, colors.$body__background-color--light, colors.$body__background-color--dark, );
 
 }
 
