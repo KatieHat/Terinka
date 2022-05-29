@@ -317,6 +317,10 @@
   }
 }
 
+.photo-galery {
+  margin: 5px;
+}
+
 /* tlačítko zpět */
 .back {
   color: #cf8b43;
