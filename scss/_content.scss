@@ -79,8 +79,14 @@
 
     margin: 0;
     margin-bottom: measures.$article__margin-bottom;
-    padding: 0 measures.$article__padding;
+    padding: 0 measures.$article__padding--mobile;
     text-align: center;
+
+    @media screen and (min-width: measures.$width-tablet) {
+
+        padding: 0 measures.$article__padding--tablet;
+        
+    }
     
     }
 
