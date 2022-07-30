@@ -358,6 +358,7 @@
 
 .text-normal {
   font-family: "PT Serif", "Times New Roman";
+  text-align: justify;
 }
 
 .section {
